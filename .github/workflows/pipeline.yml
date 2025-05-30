@@ -23,7 +23,7 @@ jobs:
 
       - name: Prepare environment
         run: |
-          cd ./Lab_7/env_416404 && python -m pip install -r requirements.txt
+          cd Lab_7/env_416404 && python -m pip install -r requirements.txt
 
   test_dodawanie:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_dodawanie
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_dodawanie
 
   test_odejmowanie:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_odejmowanie
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_odejmowanie
 
   test_mnozenie:
     runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_mnozenie
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_mnozenie
 
   test_dzielenie:
     runs-on: ubuntu-latest
@@ -55,7 +55,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_dzielenie
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_dzielenie
 
   test_maksimum:
     runs-on: ubuntu-latest
@@ -63,7 +63,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_maksimum
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_maksimum
 
   test_minimum:
     runs-on: ubuntu-latest
@@ -71,7 +71,7 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_minimum
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_minimum
 
   test_srednia:
     runs-on: ubuntu-latest
@@ -79,4 +79,4 @@ jobs:
     steps:
       - name: Run test
         run: |
-          cd ./Lab_7/env_416404 && pytest calculator_test.py::test_srednia
+          cd Lab_7/env_416404 && pytest calculator_test.py::test_srednia
