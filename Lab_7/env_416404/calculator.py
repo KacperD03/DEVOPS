@@ -21,7 +21,7 @@ def srednia(liczby):
     return df['liczby'].mean()
 
 def maksimum(liczby):
-    df = pd.DataFrame({'liczba': liczby})
+    df = pd.DataFrame({'liczby': liczby})
     return df['liczby'].max()
 
 def minimum(liczby):

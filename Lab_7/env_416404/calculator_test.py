@@ -22,9 +22,10 @@ def test_maksimum():
     assert maksimum([-7,49,30,81]) == 81
 
 def test_minimum():
-    assert dzielenie([6,9,1]) == 1
-    assert dzielenie([-3,-8,4]) == -8
-    assert dzielenie([19,29,90,42]) == 19
+    assert minimum([6,9,1]) == 1
+    assert minimum([-3,-8,4]) == -8
+    assert minimum([19,29,90,42]) == 19
+
 
 def test_srednia():
     assert srednia([4,5,6]) == 5
